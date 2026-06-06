@@ -1,0 +1,19 @@
+{
+  "name": "@arctics/flex-db-hono",
+  "version": "2.6.0",
+  "description": "Hono middleware, handler factories, and a namespace router for FlexDB. Zero-config CRUD, list, search, and bulk operations for Hono applications backed by @arctics/flex-db-sdk.",
+  "license": "Apache-2.0",
+  "exports": "./mod.ts",
+  "imports": {
+    "@arctics/flex-db-sdk": "jsr:@arctics/flex-db-sdk@^2.6.0",
+    "hono": "npm:hono@^4"
+  },
+  "publish": {
+    "include": [
+      "src/**/*.ts",
+      "mod.ts",
+      "README.md",
+      "LICENSE"
+    ]
+  }
+}
